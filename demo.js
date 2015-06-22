@@ -104,8 +104,8 @@
 	// Hot Module Replacement
 	if(false) {
 		// When the styles change, update the <style> tags
-		module.hot.accept("!!/home/travis/build/johnagan/ci-demo/node_modules/css-loader/index.js!/home/travis/build/johnagan/ci-demo/src/stylesheets/index.css", function() {
-			var newContent = require("!!/home/travis/build/johnagan/ci-demo/node_modules/css-loader/index.js!/home/travis/build/johnagan/ci-demo/src/stylesheets/index.css");
+		module.hot.accept("!!/home/travis/build/kaihj/ci-demo/node_modules/css-loader/index.js!/home/travis/build/kaihj/ci-demo/src/stylesheets/index.css", function() {
+			var newContent = require("!!/home/travis/build/kaihj/ci-demo/node_modules/css-loader/index.js!/home/travis/build/kaihj/ci-demo/src/stylesheets/index.css");
 			if(typeof newContent === 'string') newContent = [[module.id, newContent, '']];
 			update(newContent);
 		});
@@ -134,8 +134,8 @@
 	// Hot Module Replacement
 	if(false) {
 		// When the styles change, update the <style> tags
-		module.hot.accept("!!/home/travis/build/johnagan/ci-demo/node_modules/css-loader/index.js!/home/travis/build/johnagan/ci-demo/node_modules/normalize.css/normalize.css", function() {
-			var newContent = require("!!/home/travis/build/johnagan/ci-demo/node_modules/css-loader/index.js!/home/travis/build/johnagan/ci-demo/node_modules/normalize.css/normalize.css");
+		module.hot.accept("!!/home/travis/build/kaihj/ci-demo/node_modules/css-loader/index.js!/home/travis/build/kaihj/ci-demo/node_modules/normalize.css/normalize.css", function() {
+			var newContent = require("!!/home/travis/build/kaihj/ci-demo/node_modules/css-loader/index.js!/home/travis/build/kaihj/ci-demo/node_modules/normalize.css/normalize.css");
 			if(typeof newContent === 'string') newContent = [[module.id, newContent, '']];
 			update(newContent);
 		});
